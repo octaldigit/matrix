@@ -6,7 +6,7 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 // 텍스트 데이터 및 초기 설정
-const charset = "ABCDEFGHIキムJKLMNOPQRSTUVWXYZケンユウ1234567건890!@#$%^&*()_+アカサタ우ナマハヲワト";
+const charset = "ABCDEFGHIキムJKLMNOPQRネットSTUVWXYZケンユウ1234567건890!@#$%^&*()_+アカサタ우ナマハヲワト";
 const fontSize = 10;
 const columns = Math.floor(canvas.width / fontSize);
 const drops = Array(columns).fill(1);
